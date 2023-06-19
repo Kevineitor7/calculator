@@ -5,7 +5,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color:#F5EFE7;
+    background: linear-gradient(90deg, hsl(186, 25%, 76%), #dfd8d0);;
 }
 
 #container {
@@ -23,7 +23,7 @@ body {
     width: 570px;
     height: 620px;
     overflow: hidden;
-    background-color: #79E0EE;
+    background-color: #9AC5F4;
 }
 
 .display {
