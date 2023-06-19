@@ -277,15 +277,15 @@ function suma() {
         } else if (operator[operator.length - 1] == 'sub') {
             subtract(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'mul') {
             multiply(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'div') {
             divide(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         }
     }
     operator.push('sum')
@@ -300,19 +300,19 @@ function resta() {
         if (operator[operator.length - 1] == 'sum') {
             add(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'sub') {
             subtract(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'mul') {
             multiply(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'div') {
             divide(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         }
     }
     operator.push('sub')
@@ -327,19 +327,19 @@ function multiplicacion() {
         if (operator[operator.length - 1] == 'sum') {
             add(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'sub') {
             subtract(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'mul') {
             multiply(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'div') {
             divide(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         }
     }
     operator.push('mul')
@@ -354,19 +354,19 @@ function dividir() {
         if (operator[operator.length - 1] == 'sum') {
             add(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'sub') {
             subtract(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'mul') {
             multiply(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         } else if (operator[operator.length - 1] == 'div') {
             divide(Number(x), Number(y))
             x = resultado
-            y = 0
+            y = ''
         }
     }
     operator.push('div')
