@@ -18,6 +18,8 @@ body {
 
 #calculator {
     border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px black;
     width: 570px;
     height: 620px;
     overflow: hidden;
@@ -33,9 +35,17 @@ body {
 .display p {
     margin: 0;
     padding: 10px;
-    letter-spacing: 0.1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Righteous', cursive;
+}
+
+.display a {
+    text-decoration: none;
+    color: black
+}
+
+.display a:hover {
+    color: gold;
 }
 
 .screen {
@@ -78,6 +88,7 @@ body {
     border: 2px solid black;
     background: #DDE6ED;
     font-size: 1.8rem;
+    transition: 0.2s
 }
 
 .line {
@@ -178,14 +189,13 @@ body {
     width: 70px;
 }
 
-.key.root {
+.key.backspace {
     top: 10px;
     left: 400px;
-    width: 70px;
+    width: 155px;
 }
 
-.key.remainder {
-    top: 10px;
-    left: 485px;
-    width: 70px;
+.key:active {
+    transform: scale(0.9);
+    background: rgba(255, 166, 0, 0.548);
 }
